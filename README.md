@@ -1,12 +1,12 @@
 # cdd-starter
 
-**Give your AI agent the why, not just the how.** A minimal Context-Driven Development (CDD) starter.
+**Give your AI agent the history and context, not just the how.** A minimal Context-Driven Development (CDD) starter.
 
-Talk: AiDevTLV 2026 — "Why our agents got worse over six months — and the repo structure that fixed it"
+Talk: AiDevTLV 2026 — "Why our agents got worse… and the repo structure that fixed it"
 
 ## The idea
 
-An agent only gets it when it knows **why**, not just **how**. The code already holds the how. What is missing is the onboarding a new teammate would get: the decisions, the trade-offs, the things you tried and dropped.
+An agent only gets it when it has your **history and context**, not just the **how**. The code already holds the how. What is missing is the onboarding a new teammate would get: the decisions, the trade-offs, the things you tried and dropped.
 
 CDD puts that onboarding in a repo of decisions next to your code (or a folder inside it), in git.
 
@@ -16,7 +16,7 @@ CDD puts that onboarding in a repo of decisions next to your code (or a folder i
 ## The four rules
 
 1. **Newcomer test.** Log only what a smart newcomer, human or agent, would undo without knowing why.
-2. **Why before code.** The agent reads the project intro and the design log before any source file.
+2. **Read before code.** The agent reads the project intro and the design log before any source file.
 3. **Argue in markdown.** No code before an approved design log. Questions stay in the file, with their answers.
 4. **Append, never rewrite.** Once implementation starts, the design freezes. Add an "Implementation Results" section below it. Keep each log to about 80 lines and put the detail in `dev/`, linked.
 
