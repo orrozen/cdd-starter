@@ -33,4 +33,4 @@ Missing alerts, misleading dashboards, assumptions that turned out wrong.
 
 ## What an agent should know
 
-The why that must never be lost. Write it so a future agent that reads only this section won't reintroduce the bug.
+The history that must never be lost. Write it so a future agent that reads only this section won't reintroduce the bug.

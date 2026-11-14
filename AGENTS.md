@@ -1,6 +1,6 @@
 # AGENTS.md
 
-This repo holds the **why** behind our code: decisions, trade-offs and incidents. Read it before you read source.
+This repo holds the **history and context** behind our code: decisions, trade-offs and incidents. Read it before you read source.
 
 ## Session start
 
@@ -12,7 +12,7 @@ This repo holds the **why** behind our code: decisions, trade-offs and incidents
 ## Conventions
 
 - **Newcomer test.** Log only what a smart newcomer would undo without knowing why.
-- **Why before code.** Intro and design log come before any source file.
+- **Read before code.** Intro and design log come before any source file.
 - **Argue in markdown.** No code before an approved design log. Keep each question in the file with its answer.
 - **Append, never rewrite.** After implementation starts, add `## Implementation Results` below the design. Don't edit the design sections.
 - **Short logs.** About 80 lines per log at most. Deep detail goes in `dev/`, linked.
